@@ -659,6 +659,55 @@ StarPilot/
 
 ---
 
+## 📋 常用英文單字（快速複製）
+
+部署到 Netlify、GitHub Pages 等平台時，可能需要輸入英文檔名或設定。以下是常用單字，點擊即可複製：
+
+### 🎮 遊戲專案
+
+| 中文 | 英文檔名 | 專案名稱 |
+|------|----------|----------|
+| 貪食蛇 | `snake_game.html` | `snake-game` |
+| 俄羅斯方塊 | `tetris_game.html` | `tetris-game` |
+| 打磚塊 | `breakout_game.html` | `breakout-game` |
+| 2048 | `game_2048.html` | `game-2048` |
+| 踩地雷 | `minesweeper.html` | `minesweeper` |
+
+### 📊 工具專案
+
+| 中文 | 英文檔名 | 專案名稱 |
+|------|----------|----------|
+| 銷售儀表板 | `sales_dashboard.py` | `sales-dashboard` |
+| 檔案整理工具 | `file_organizer.py` | `file-organizer` |
+| 價格監控 | `price_monitor.py` | `price-monitor` |
+| 資料分析 | `data_analysis.py` | `data-analysis` |
+| 自動化報告 | `auto_report.py` | `auto-report` |
+
+### 🚀 部署設定
+
+| 用途 | 常用值 |
+|------|--------|
+| 部署資料夾 | `playground` |
+| 主程式檔案 | `app.py` 或 `main.py` |
+| 套件清單 | `requirements.txt` |
+| 啟動指令 | `streamlit run app.py` |
+| Python 環境 | `Python 3` |
+
+### 📁 資料夾名稱
+
+| 中文 | 英文 |
+|------|------|
+| 遊樂場 | `playground` |
+| 資料 | `data` |
+| 報告 | `reports` |
+| 備份 | `backup` |
+| 輸出 | `output` |
+| 測試 | `test` |
+
+> 💡 **提示**：專案名稱通常使用小寫字母和連字號（kebab-case），例如 `my-project-name`
+
+---
+
 ## 🎓 學習路徑(由淺入深)
 
 ### 🎮 階段零：暖身 - 做個有趣的遊戲
