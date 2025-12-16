@@ -39,9 +39,6 @@ logs/
 *.temp
 ~$*
 
-# User data (keep structure, ignore content)
-data/*
-!data/README.md
 # playground 資料夾不忽略，讓學員可以提交他們的作品
 
 # Node modules (if using JavaScript)
@@ -53,5 +50,5 @@ output/
 reports/
 *.xlsx
 *.csv
-!data/sample*.xlsx
-!data/sample*.csv
+!data/*.xlsx
+!data/*.csv
