@@ -50,5 +50,9 @@ output/
 reports/
 *.xlsx
 *.csv
+
+# 允許範例資料和測試資料上版控
 !data/*.xlsx
 !data/*.csv
+!examples/**/*.xlsx
+!examples/**/*.csv
