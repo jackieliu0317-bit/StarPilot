@@ -309,6 +309,8 @@
 
 #### 📤 實際操作：如何把作品存到雲端？
 
+![VS Code 與 GitHub 工作流程圖解](images/vscode_github_workflow.png)
+
 假設你今天在工作室（VS Code）幫你的樂高加了一個很酷的新輪子（新功能）。
 
 **步驟 1：打包（Commit 提交）**
@@ -563,6 +565,23 @@ A：個人使用完全免費
 > **你完全不需要執行任何安裝指令！** 環境啟動完成後，直接開始使用。
 > 
 > ⚡ **適合公司資安環境**：不需要在本機安裝任何軟體，所有操作都在雲端完成。
+
+#### ⚠️ Edge 無痕模式疑難排解
+
+如果使用 **Edge 無痕模式 (InPrivate)** 開啟 Codespaces 時出現「Oh no, it looks like you are offline!」錯誤：
+
+**原因**：Edge 無痕模式預設開啟嚴格的追蹤防護，會阻擋 Codespaces 需要的連線。
+
+**解決方法**：
+
+1. 在出現錯誤的頁面，點擊網址列左邊的 **🔒 鎖頭圖示**
+2. 找到「**此網站的追蹤防護**」或「**Tracking prevention for this site**」
+3. 點擊將它 **關閉**
+4. 重新整理頁面，再點擊「**Retry connecting to the codespace**」
+
+![關閉追蹤防護示意](https://docs.github.com/assets/images/help/codespaces/codespaces-resolve-offline.png)
+
+> 💡 **建議**：課程教學時建議使用 **Chrome** 或 **Edge 一般模式**，可避免此問題。
 
 ---
 
