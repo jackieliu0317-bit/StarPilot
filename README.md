@@ -1121,6 +1121,10 @@ StarPilot/
 1️⃣ 訪問 Netlify
    - 前往：https://app.netlify.com
    - 點擊「Sign up with GitHub」使用 GitHub 帳號登入
+   - 會出現「Authorize Netlify Auth」授權畫面
+   - 點擊綠色的「Authorize netlify」按鈕允許授權
+   
+   > 💡 這是正常的授權流程，Netlify 需要存取你的 GitHub 才能部署專案
 
 2️⃣ 快速完成 Onboarding 問卷
    登入後會出現一系列問題，快速填寫即可：
