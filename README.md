@@ -1244,6 +1244,80 @@ StarPilot/
 
 ---
 
+#### 📝 Supabase 註冊與設定教學
+
+> 💡 **什麼是 Supabase？**
+> Supabase 是一個免費的「後端即服務」平台，讓你不用架伺服器就能擁有資料庫和 API。
+
+**步驟 1：註冊帳號**
+
+```
+1️⃣ 前往 https://supabase.com
+2️⃣ 點擊右上角「Start your project」
+3️⃣ 選擇「Continue with GitHub」（推薦！一鍵快速）
+4️⃣ 在 GitHub 授權頁面點擊「Authorize supabase」
+5️⃣ 完成新手問卷（可跳過）
+
+✅ 註冊完成！
+```
+
+**步驟 2：建立專案**
+
+```
+1️⃣ 點擊「New Project」
+2️⃣ 選擇或建立 Organization（組織）
+   - 名稱隨意填，方案選「Free」
+3️⃣ 填寫專案資訊：
+   - Name：contacts-app
+   - Database Password：設定密碼（請記住！）
+   - Region：Northeast Asia (Tokyo)
+4️⃣ 點擊「Create new project」
+5️⃣ 等待 2-3 分鐘建立完成
+
+✅ 專案建立成功！
+```
+
+**步驟 3：建立資料表**
+
+```
+1️⃣ 點擊左側「Table Editor」
+2️⃣ 點擊「Create a new table」
+3️⃣ 設定資料表：
+   - Name：contacts
+   - ❌ 取消勾選「Enable RLS」（教學用）
+4️⃣ 新增欄位（Add column）：
+
+   | 欄位 | 類型 | 說明 |
+   |------|------|------|
+   | id | int8 | 主鍵（自動） |
+   | name | text | 姓名 |
+   | phone | text | 電話 |
+   | email | text | Email |
+   | company | text | 公司 |
+   | category | text | 分類 |
+   | notes | text | 備註 |
+   | created_at | timestamptz | 建立時間（預設 now()）|
+
+5️⃣ 點擊「Save」儲存
+
+✅ 資料表建立完成！
+```
+
+**步驟 4：取得 API 金鑰**
+
+```
+1️⃣ 點擊左側「Project Settings」⚙️
+2️⃣ 點擊「API」
+3️⃣ 複製以下兩個資訊：
+
+   📋 Project URL：https://xxxxx.supabase.co
+   📋 anon public key：eyJhbG...（很長一串）
+
+⚠️ API 金鑰要保密，不要上傳到公開的 GitHub！
+```
+
+> 📖 **完整教學**：詳細步驟請參考 [examples/10_CRUD通訊錄/任務說明.md](examples/10_CRUD通訊錄/任務說明.md)
+
 #### 🌐 快速部署方式
 
 **方案 1：Netlify（最簡單！推薦新手）**
